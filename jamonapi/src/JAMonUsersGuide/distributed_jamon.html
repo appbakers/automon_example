@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+        <meta charset="utf-8"/>
+    <meta name="keywords" lang="en-us" content="distributed, cluster aware, jetty, tomcat, free, opensource, spring, aop, jamonaspect, java, performance tuning, jamonlistener, log4j, jboss, appender, JAMonAppender, listener, monitor, bottleneck, scale, scalability, monitoring tools, page hits, page counter, currentTimeMillis, benchmark, jamonapi, free, freeware, shareware, open source, measure, fdsapi, http, valve, tomcat, jetty, jboss, appserver, webserver, formatteddataset, servlet filter">
+    <meta name="description" content=" The Java Application Monitor (JAMon) is a free, simple, high performance, thread safe, Java API that allows developers to easily monitor production applications.">
+    <title>Monitoring Spring with Jamon</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="jamon_docs.css">
+
+</head>
+<body>
+<div class="container">
+
+
+
+
+<p align="center">
+    <img src="jamon1.jpg" id="fdsbanner1" border="0" /></a>
+</p>
+
+<h2 align='center'>Using JAMon to monitor distributed applications</h2>
+
+
+<!-- START JAMON SPECIFIC HTML -->
+
+
+            <p>Modern software is often distributed.  An application might have multiple web servers, message brokers, a distributed file system and more.
+                This makes detecting performance problems and determining application health difficult.
+                JAMon 2.78+ has improvements that make monitoring distributed applications easier.   </p>
+
+                Some instructional videos follow:
+                <ul>
+                    <li>Here is a <a href="http://youtu.be/zzKvI6otyMQ">video</a> that demonstrates running distributed JAMon in both jetty and tomcat.</li>
+                    <li>If you want you can skip right to the part about  <a href="http://youtu.be/zzKvI6otyMQ?t=5m31s">distributed monitoring</a>.</li>
+                    <li>Or you can go straight to the part of the video that shows <a href="http://youtu.be/zzKvI6otyMQ?t=6m59s">how to configure jetty and tomcat</a>.</li>
+                    <li><a href="http://youtu.be/FQ65Jpw2sJY">Jamon 2.79 distributed features</a> including querying distributed JAMon data.
+                        Other topics discussed include JAMon persistence, cached JAMon data and the jamonapi.properties file
+                        .</li>
+                </ul>
+
+               <p> With previous versions of JAMon it was only possible to view JAMon statistics separately on each host where JAMon was installed.
+                   JAMon now allows developers to centrally view the JAMon data of ALL JVMs from any JAMon web application.
+                   The ability to view statistics of a distributed application from a central location is invaluable.  This same capability can be used
+                   to view multiple applications that your organization has even if they reside on different servers. </p>
+
+                <p> JAMon 2.79+ also allows you to query the data on all of the servers in your cluster.  You select the instances that you would like to apply the query
+                against in the 'Instances' multi-select box, and enter your query in the 'Filter' text box.  The query will be run against all selected instances. The following
+                example demonstrates looking at all page hits on each of 4 selected servers.</p>
+
+                <p><img src="distributed_jamon1.png" border="1"> </p>
+                <br/>
+
+                <p>JAMon not only tracks summary data, but it lets you look at details of interest such as specific information about your slowest pages, or any stacktraces from exceptions
+                    you application has thrown.  This data is viewable from all servers in your cluster.  The following shows a Tomcat stacktrace being viewed from a Jetty server.</p>
+
+                <p><img src="distributed_jamon_stacktrace.png" border="1"> </p>
+                <br/>
+
+                <p> Note you can also choose to cache the results.  This allows you to analyze the data and not have it change should you refresh the
+                    page.</p>
+
+                    <p>You will also see 'local' and 'local-saved' in the 'Instances' multi-select box.  'local' is the live real-time JAMon data on the host you are connected
+                    too.  As of JAMon 2.79 the local data is also saved on a timer (by default every 5 minutes).  'local-saved' is this saved data.  The file is replaced every 5 minutes
+                by default, however you could create a cron job to copy or rename the file to keep more backups. Any JAMon data in the JAMon data directory can be viewed from the JAMon Web application.  The
+                    file location is configurable in the <a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/test/resources/jamonapi.properties">jamonapi.properties</a> file.</p>
+
+
+                <p>JAMon ships with the ability to save the monitoring data to a distributed <a href="http://hazelcast.org/">HazelCast Map</a>.
+                By default the data will be saved every 5 minutes and is done at the same time that the JAMon data is persisted to a file.</p>
+
+                <p>Saving of JAMon data is done with a JamonDataPersister.  Developers can provide their own implementations too.
+                    JAMon implements this capability with a new interface (<a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/main/java/com/jamonapi/distributed/JamonDataPersister.java">JamonDataPersister</a>)
+                    which is called from the timer.
+                    A <a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/main/java/com/jamonapi/distributed/JamonDataPersister.java">JamonDataPersister</a> implementation enables
+                    a developer to do anything they want with the serializable JAMon data (<a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/main/java/com/jamonapi/MonitorComposite.java">MonitorComposite</a>).
+                    JamonDataPersister has three primary methods: put, get, remove. They are used to save, retrieve, and delete JAMon data associated with a specific server.
+                    </p>
+
+
+                <p>The <a href="http://hazelcast.org/">HazelCast</a> implementation will automatically be called if the HazelCast jar is found in the classpath
+                    (The java class that implements this is  <a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/main/java/com/jamonapi/distributed/HazelcastPersister.java">HazelcastPersister</a>).
+                    This implementation puts a serialized version of JAMon data into a HazelCast distributed HashMap.
+                    The server hostname/port will be the key, and the serializable JAMon data as the value.  Or you can define your own key name in <a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/test/resources/jamonapi.properties">jamonapi.properties</a>.
+                    </p>
+
+            Developers can easily implement JamonDataPersister and perform their own actions on JAMon data.  A few examples follow:
+            <ul>
+                <li>Persist the data to a distributed NOSQL database, or file store such as Cassandra, or Hadoop.  Note you could also persist FactoryEnabled and use the same
+                 monitors in across hadoop jobs (2.79+).</li>
+                 <li>Persist the data to an in-memory key/value database such Reddis.</li>
+                <li>The HazelcastPersister class replaces each servers saved data each time the 'put()' method is called.
+                   Replacement isn't required though.  Another option would be to keep snapshots (i.e. not just one copy of the data).</li>
+            </ul>
+
+            <p>HazelCast has other powerful capabilities that developers can take advantage of.  For example you could use HazelCast to run map/reduce jobs on the JAMon data. </p>
+
+            <p>To change the save frequency (defaults to 5 minutes) or to change the use your own JamonDataPersister either put <a href="https://sourceforge.net/p/jamonapi/jamonapi/ci/master/tree/jamon/src/test/resources/jamonapi.properties">jamonapi.properties</a>
+                in your classpath, or provide command line arguments when you invoke your program (Example: -DdistributedDataRefreshRateInMinutes=2 -DjamonDataPersister=com.steve.MyPersister).
+                Command line properties take precedence over the properties file.</p>
+
+            <p>See your jvm, and container documentation for more information about where the  jamonapi.properties file can be placed.</p>
+
+
+
+<p align="center">
+    <a href="http://www.fdsapi.com"><img src="fds_logo_fulltext_blue2_150.jpg"
+                                         id="fdsbanner" border="1" /></a>
+    <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=96550&amp;type=4" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>
+    <a href="http://www.jamonapi.com"><img src="jamon_banner3.jpg"
+                                           id="jamonbanner" border="1" /></a>
+</p>
+
+<!-- END JAMON SPECIFIC HTML -->
+</div>
+</body>
+</html>

@@ -1,0 +1,527 @@
+2015-05-08 16:55:25.558:INFO:oejs.Server:main: jetty-9.2.9.v20150224
+2015-05-08 16:55:25.809:INFO:oejdp.ScanningAppProvider:main: Deployment monitor [file:/C:/temp/automon/jetty/webapps/] at interval 1
+2015-05-08 16:55:28.731:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@14f0d9c{/jamon,file:/C:/Users/base/AppData/Local/Temp/jetty-0.0.0.0-8080-jamon.war-_jamon-any-3700587618459833005.dir/webapp/,AVAILABLE}{C:\temp\automon\jetty\webapps\jamon.war}
+[WebAppClassLoader@1f62e33] info AspectJ Weaver Version 1.8.5 built on Thursday Jan 29, 2015 at 01:03:58 GMT
+[WebAppClassLoader@1f62e33] info register classloader org.eclipse.jetty.webapp.WebAppClassLoader@1f62e33
+[WebAppClassLoader@1f62e33] info define aspect com.myorganization.MyMonitoringAspect
+[WebAppClassLoader@1f62e33] debug weaving 'com.myorganization.MyMonitoringAspect'
+[WebAppClassLoader@1f62e33] debug generating class 'com.myorganization.MyMonitoringAspect'
+[WebAppClassLoader@1f62e33] debug weaving 'com.stevesouza.webapp.MyServlet'
+2015-05-08 16:55:29.716:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@ea2410{/automon_demo,file:/C:/Users/base/AppData/Local/Temp/jetty-0.0.0.0-8080-automon_demo.war-_automon_demo-any-5442409796382836370.dir/webapp/,AVAILABLE}{C:\temp\automon\jetty\webapps\automon_demo.war}
+2015-05-08 16:55:30.088:INFO:oejs.ServerConnector:main: Started ServerConnector@1270e0a{HTTP/1.1}{0.0.0.0:8080}
+2015-05-08 16:55:30.089:INFO:oejs.Server:main: Started @7764ms
+[JasperLoader@121a2cf] info AspectJ Weaver Version 1.8.5 built on Thursday Jan 29, 2015 at 01:03:58 GMT
+[JasperLoader@121a2cf] info register classloader org.apache.jasper.servlet.JasperLoader@121a2cf
+[JasperLoader@121a2cf] info define aspect com.myorganization.MyMonitoringAspect
+[JasperLoader@121a2cf] debug weaving 'com.myorganization.MyMonitoringAspect'
+[JasperLoader@121a2cf] debug generating class 'com.myorganization.MyMonitoringAspect'
+[JasperLoader@121a2cf] debug weaving 'org.apache.jsp.jamonadmin_jsp'
+[WebAppClassLoader@eda5c9] info AspectJ Weaver Version 1.8.5 built on Thursday Jan 29, 2015 at 01:03:58 GMT
+[WebAppClassLoader@eda5c9] info register classloader org.eclipse.jetty.webapp.WebAppClassLoader@eda5c9
+[WebAppClassLoader@eda5c9] info define aspect com.myorganization.MyMonitoringAspect
+[WebAppClassLoader@eda5c9] debug weaving 'com.myorganization.MyMonitoringAspect'
+[WebAppClassLoader@eda5c9] debug generating class 'com.myorganization.MyMonitoringAspect'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Converter'
+[WebAppClassLoader@eda5c9] debug weaving 'net.sf.xsshtmlfilter.HTMLFilter'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.FormattedDataSet'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataAccess'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ResultSetConverter'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ResultSetUtils'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.RuntimeExceptionBase'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayHeaderLocator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArraySQL'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayFilter'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ColumnFunctionFactory'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.Column'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ColumnRowNum'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ColumnDate'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayConverter'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayConverterFactory'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.NullConverter'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterNumToString'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterBase'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterDateToString'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ConditionalCompositeContainer'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ConditionalComposite'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.Conditional'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ConditionalCompositeImp'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.FDSStack'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseTokens'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.FDSArraysRuntimeException'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseTokenValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseConditionalValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseLeftParenValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseRightParenValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseOrValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseAndValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseToken$WhereClauseNotValidator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseTokens$Composite'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayComparator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.AppConstants'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.SelectColsParser'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Utils'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.RegularExpression'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.PatternCompiler'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.PatternMatcher'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Perl5Compiler'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.MalformedPatternException'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Pattern'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Perl5Matcher'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.MatchResult'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.CharStringPointer'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.OpCode'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Perl5Pattern'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.PatternMatcherInput'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Perl5Repetition'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Perl5MatchResult'
+[WebAppClassLoader@eda5c9] debug weaving 'org.apache.oro.text.regex.Util'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ColumnData'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.WhereClauseParser'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ConditionalParser'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.OrderByParser'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterMapValue'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterEscapeChars'
+[JasperLoader@121a2cf] debug weaving 'org.apache.jsp.jamonadmin_jsp$TruncateString'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Templates'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Templates$DefaultTemplates'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Template'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataFactory'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularData'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataEmpty'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataBase'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataIterator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataIteratorBase'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataFactory$TabularDataFactoryEntry'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataResultSet'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataRSMD'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSet'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularDataDataSet'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularData2DimArray'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TabularData1DimArray'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetFactory'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellEmpty'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellBase'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellNoAppend'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellConstant'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCell'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetRow'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetDecorator'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCol'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetNext'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellFormattedDataSet'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellListBox'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellDropDownListBox'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellRadioButton'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetConditional'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetCellAlternating'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetFactory$DataSetFactoryBuilder'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateConstants'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetFactoryParm'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetMap'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.Coordinate'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetMap$DataSetMapParser'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateTagReader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateReader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateVariables'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateVariables$VariableEntry'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateColumnReader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$Null'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$CellData'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$CurrentCol'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$RowNum'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$ColNum'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$CurrentColHeader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$CellDataHeader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$MiscDataArray'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$MiscDataCurrentCol'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ColBoundary$MiscData'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.TemplateVariableReader'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetMap$1CloneMapCommand'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetParm'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.DataSetMap$1DataSetParmCommand'
+[WebAppClassLoader@1f62e33] debug weaving 'com.stevesouza.helloworld.HelloWorld'
+[WebAppClassLoader@1f62e33] debug weaving 'com.stevesouza.jdk.JdkHelloWorld'
+[WebAppClassLoader@1f62e33] debug weaving 'com.stevesouza.jdk.JdbcInteraction'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbcDriver'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCDriver'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCDriver$1'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.DatabaseURL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.HsqlProperties'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.FileAccess'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.ValuePool'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.ValuePoolHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.BaseHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.Iterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.HashIndex'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCConnection'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.HsqlException'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SessionInterface'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCConnection$1'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.HsqlDateTime'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.DatabaseManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.Collection'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.Set'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntKeyHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlTimer'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ThreadFactory'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlTimer$TaskQueue'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlArrayHeap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlHeap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlTimer$TaskRunner'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Database'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TransactionManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.result.Result'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.Type'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SchemaObject'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.NumberType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.BooleanType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.CharacterType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.result.ResultLob'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowSetNavigator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RangeIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowSetNavigatorClient'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rowio.RowInputInterface'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SqlInvariants'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.HsqlNameManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.HsqlNameManager$HsqlName'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.HsqlNameManager$SimpleName'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.Charset'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.Collation'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HashMap$Values'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.BaseHashMap$BaseHashIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.result.ResultMetaData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.ArrayType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ColumnBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.BinaryType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.DateTimeType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.DTIType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.IntervalType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.OtherType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.ClobType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.BlobType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.BitType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.NullType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.ClobData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.LobData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.BlobData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntKeyIntValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.TimestampData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.Logger'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.Index'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TableBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Table'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.PersistentStore'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.tar.TarMalformatException'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.InputStreamInterface'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.DataFileCache'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.TextCache'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.LobManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.LobStore'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlByteArrayInputStream'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rights.GranteeManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rights.Grantee'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rights.User'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.MultiValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.OrderedHashSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlList'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HashSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rights.Right'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HashMappedList'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.rights.UserManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SchemaManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TableDerived'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Schema'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SchemaObjectSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TypeInvariants'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.UserTypeModifier'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Constraint'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.PersistentStoreCollectionDatabase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.PersistentStoreCollection'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongKeyHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SessionManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Session'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Statement'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementResultUpdate'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementDML'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementDMQL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementSession'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.CountUpDownLatch'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.CountUpDownLatch$Sync'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlArrayList'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.BaseList'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SessionContext'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowSetNavigatorDataChange'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.View'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariable'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariable$RangeIteratorMain'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariable$RangeIteratorBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariable$RangeIteratorRight'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Expression'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionLogical'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowSetNavigatorData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeGroup'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionColumn'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.OrderedIntHashSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TextTable'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.navigator.RowSetNavigatorDataTable'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ColumnSchema'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionColumnAccessor'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongDeque'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariable$RangeVariableConditions'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeGroup$RangeGroupSimple'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserCommand'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserDDL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserRoutine'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserDML'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserDQL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionValue'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementQuery'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementCursor'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.QueryExpression'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.QuerySpecification'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionArithmetic'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionLike'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionTable'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionAccessor'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionOp'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.FunctionSQLInvoked'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.FunctionSQL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariableJoined'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionArrayAggregate'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionAggregate'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ExpressionOrderBy'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementInsert'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementCommand'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementProcedure'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementCompound'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementExpression'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementSimple'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementSchema'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementSchemaDefinition'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Scanner'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Token'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.CharArrayWriter'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HsqlByteArrayOutputStream'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ParserDQL$CompileContext'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.OrderedIntKeyHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeGroup$RangeGroupEmpty'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SessionData'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.CountdownInputStream'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ReaderInputStream'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongKeyLongValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.PersistentStoreCollectionSession'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongKeyIntValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Session$TimeoutManager'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.dbinfo.DatabaseInformation'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.dbinfo.DatabaseInformationFull'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.dbinfo.DatabaseInformationMain'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.HsqlDatabaseProperties'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.dbinfo.DatabaseInformationFull$1'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LineGroupReader'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.StringUtil'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.Index$IndexUse'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TriggerDef'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Trigger'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ArrayUtil'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.IndexAVLMemory'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.IndexAVL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Row'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.CachedObject'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RowAVL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.IndexAVL$IndexRowIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ReadWriteLockDummy'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ReadWriteLockDummy$LockDummy'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.ConstraintCore'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.BaseHashMap$ValuesIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.MultiValueHashMap$KeySet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.BaseHashMap$MultiValueKeyIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TransactionManager2PL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TransactionManagerCommon'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TransactionManagerMVCC'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TransactionManagerMV2PL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.LobManager$1'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Tokens'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.NumberSequence'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.Types'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.OrderedIntKeyHashMap$KeySet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SortAndSlice'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RangeVariableResolver'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.BaseList$BaseListIterator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TableWorks'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.RowStoreAVLMemory'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.RowStoreAVL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.error.Error'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.resources.ResourceBundleHandler'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Routine'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.types.RowType'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.StatementHandler'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.FunctionCustom'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntValueHashMap$Values'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.map.BitMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RoutineSchema'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntKeyIntValueHashMap$KeySet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.StringConverter'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.result.ResultProperties'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.OrderedIntKeyHashMap$Values'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.TableUtil'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ArrayListIdentity'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.SetFunction'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ObjectComparator'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.index.NodeAVL'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.FileUtil'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.FileAccess$FileSync'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.FileUtil$FileAccessRes'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.HashMap$KeySet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.SimpleLog'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.LobStoreMem'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RowAction'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RowActionBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.MultiValueHashMap$Values'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Database$CheckpointRunner'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.Database$TimeoutRunner'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCStatement'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCStatementBase'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.java.JavaSystem'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.RowStoreAVLHybridExtended'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.RowStoreAVLHybrid'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.persist.DataFileCacheSession'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.RowAVLDisk'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.IntValueHashMap$KeySet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.ArraySort'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCResultSet'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCResultSet$JDBCResultSetBasic'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.StringInputStream'
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCPreparedStatement'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongValueHashMap'
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCResultSetMetaData'
+      ** PreparedStatement query was run 2 times, and has 19 columns
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.jdbc.JDBCUtil'
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+[WebAppClassLoader@1f62e33] debug weaving 'org.hsqldb.lib.LongKeyHashMap$Values'
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.ConverterRegExp'
+[WebAppClassLoader@eda5c9] debug weaving 'com.fdsapi.arrays.ArrayComparator$ElementComparator'
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+      ** Hsqldb datatypes: VARCHAR,VARBINARY,TINYINT,TIMESTAMP,TIME,SMALLINT,REAL,OTHER,NVARCHAR,NUMERIC,INTEGER,FLOAT,DOUBLE,DECIMAL,DATE,CLOB,CHARACTER,BOOLEAN,BLOB,BIT,BINARY,BIGINT,
+      ** PreparedStatement query was run 2 times, and has 19 columns
+      ** sql exception thrown: java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: I_DO_NOT_EXIST
+Exception in thread "JamonDataPersisterTimerTask-saveJamonData" java.lang.RuntimeException: Exception while trying to save jamondata
+	at com.jamonapi.distributed.LocalJamonFilePersister.put(LocalJamonFilePersister.java:52)
+	at com.jamonapi.distributed.LocalJamonFilePersister.put(LocalJamonFilePersister.java:41)
+	at com.jamonapi.distributed.JamonDataPersisterTimerTask.run(JamonDataPersisterTimerTask.java:27)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: java.io.NotSerializableException: org.automon.utils.AutomonExpirable
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.util.HashMap.internalWriteEntries(Unknown Source)
+	at java.util.HashMap.writeObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at com.jamonapi.utils.SerializationUtils.serialize(SerializationUtils.java:17)
+	at com.jamonapi.utils.SerializationUtils.serializeToFile(SerializationUtils.java:27)
+	at com.jamonapi.distributed.LocalJamonFilePersister.put(LocalJamonFilePersister.java:50)
+	... 4 more
+2015-05-08 17:18:09.007:INFO:oejs.ServerConnector:Thread-2: Stopped ServerConnector@1270e0a{HTTP/1.1}{0.0.0.0:8080}
+2015-05-08 17:18:09.017:INFO:oejsh.ContextHandler:Thread-2: Stopped o.e.j.w.WebAppContext@ea2410{/automon_demo,file:/C:/Users/base/AppData/Local/Temp/jetty-0.0.0.0-8080-automon_demo.war-_automon_demo-any-5442409796382836370.dir/webapp/,UNAVAILABLE}{C:\temp\automon\jetty\webapps\automon_demo.war}
+2015-05-08 17:18:09.037:INFO:oejsh.ContextHandler:Thread-2: Stopped o.e.j.w.WebAppContext@14f0d9c{/jamon,file:/C:/Users/base/AppData/Local/Temp/jetty-0.0.0.0-8080-jamon.war-_jamon-any-3700587618459833005.dir/webapp/,UNAVAILABLE}{C:\temp\automon\jetty\webapps\jamon.war}
