@@ -26,6 +26,10 @@ The example below monitors call to jdk io and net classes from within the 'org.a
          <!-- monitor the com.stevesouza package and subpackages for jdk or public method calls -->
          <pointcut name="profile" expression="within(com.stevesouza..*) AND (jdk() || execution(public * *(..))) AND !automon()"/>
 
+	 <!--
+         <pointcut name="profile" expression="(jdk() || execution(public * *(..))) AND !automon()"/>
+	 -->
+
          <!-- jdk pointcuts: -->
          <pointcut name="jdk" expression="io() || net() || jdbc()"/>
 
