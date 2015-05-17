@@ -1,0 +1,96 @@
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.61
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Mar 27 2015 12:03:56 UTC
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.61.0
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Windows 7
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            6.1
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          x86
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             c:\Java\jdk1.8.0_40\jre
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.8.0_40-b26
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         c:/temp/automon/tomcat
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         c:/temp/automon/tomcat
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=c:/temp/automon/tomcat/conf/logging.properties
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms256m
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx512m
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dorg.aspectj.weaver.loadtime.configuration=file:c:/temp/automon/examples/config/automon-aop.xml
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -javaagent:c:/temp/automon/examples/libs/aspectjweaver.jar
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -verbose
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.endorsed.dirs=c:/temp/automon/tomcat/endorsed
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=c:/temp/automon/tomcat
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=c:/temp/automon/tomcat
+5월 17, 2015 3:34:42 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=c:/temp/automon/tomcat/temp
+5월 17, 2015 3:34:42 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+5월 17, 2015 3:34:42 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+5월 17, 2015 3:34:44 오후 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+5월 17, 2015 3:34:44 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+5월 17, 2015 3:34:44 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+5월 17, 2015 3:34:44 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 2892 ms
+5월 17, 2015 3:34:44 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+5월 17, 2015 3:34:44 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.61
+5월 17, 2015 3:34:44 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive C:\temp\automon\tomcat\webapps\automon_demo.war
+5월 17, 2015 3:34:46 오후 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+5월 17, 2015 3:34:46 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive C:\temp\automon\tomcat\webapps\automon_demo.war has finished in 2,042 ms
+5월 17, 2015 3:34:46 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive C:\temp\automon\tomcat\webapps\jamon.war
+5월 17, 2015 3:34:47 오후 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive C:\temp\automon\tomcat\webapps\jamon.war has finished in 1,082 ms
+5월 17, 2015 3:34:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\temp\automon\tomcat\webapps\docs
+5월 17, 2015 3:34:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\temp\automon\tomcat\webapps\docs has finished in 142 ms
+5월 17, 2015 3:34:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\temp\automon\tomcat\webapps\examples
+5월 17, 2015 3:34:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\temp\automon\tomcat\webapps\examples has finished in 610 ms
+5월 17, 2015 3:34:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\temp\automon\tomcat\webapps\host-manager
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\temp\automon\tomcat\webapps\host-manager has finished in 336 ms
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\temp\automon\tomcat\webapps\manager
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\temp\automon\tomcat\webapps\manager has finished in 116 ms
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\temp\automon\tomcat\webapps\ROOT
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\temp\automon\tomcat\webapps\ROOT has finished in 128 ms
+5월 17, 2015 3:34:49 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+5월 17, 2015 3:34:49 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+5월 17, 2015 3:34:49 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 4975 ms
